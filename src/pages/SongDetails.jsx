@@ -18,7 +18,7 @@ const SongDetails = () => {
     data,
     isFetching: isFetchingRelatedSongs,
     error,
-  } = useGetSongRelatedQuery()
+  } = useGetSongRelatedQuery({ songid })
 
   const handlePauseClick = () => {
     dispatch(playPause(false))
@@ -32,7 +32,6 @@ const SongDetails = () => {
     return <Loader title="Searching song details" />
   }
   if (error) return <Error />
-
   return (
     <div className="flex flex-col">
       <DetailsHeader artistId="" songData={songData} />
