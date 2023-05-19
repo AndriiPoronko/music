@@ -39,7 +39,7 @@ To run this website locally, follow these steps:
 2.Install the required dependencies: _**npm install**_
 
 3.Obtain API keys for the song and geolocation APIs and replace the placeholders in the code with your actual keys.
-You can rename the file _** .env.exapmle to .env **_ to keep the working keys.
+You can rename the file _**`.env.exapmle to .env`**_ to keep the working keys.
 
 4.Start the development server: _**npm run dev**_
 
