@@ -1,13 +1,14 @@
 # Website with Music / Вебсайт з музикою
 
-_Read this document in [English](README.md) or [Ukrainian](README_uk.md)._
+_Read this document in [English](README.md) or [Ukrainian](README_UA.md)._
 
-###Music Nest Website
+## Music Nest Website
+
 This is a modern music website that allows users to explore a vast collection of music, featuring a fully functional music player, search functionality, song lyrics, and various other features. The website is built using React, Redux, and Tailwind CSS, and it integrates two APIs: one for retrieving songs and artists, and another for obtaining user geolocation data.
 
-##Features
+## Features
 
--**Homepage:\*\*** The homepage showcases a contemporary design, providing an immersive experience for music enthusiasts. It offers a visually appealing layout and easy navigation to explore the website's features.
+-**Homepage:** The homepage showcases a contemporary design, providing an immersive experience for music enthusiasts. It offers a visually appealing layout and easy navigation to explore the website's features.
 
 -**Music Player:** Enjoy seamless music playback with the built-in music player. It allows users to play, pause, skip tracks, adjust volume, and create personalized playlists. The player is designed to provide a smooth and uninterrupted listening experience.
 
@@ -21,7 +22,8 @@ This is a modern music website that allows users to explore a vast collection of
 
 -**Additional Features:** In addition to the core functionalities mentioned above, the website offers several other features to enhance your music experience. These include artist biographies, music recommendations based on your listening history, customizable user profiles, and social sharing options.
 
-##Technologies Used
+## Technologies Used
+
 -React: A popular JavaScript library for building user interfaces. React provides a robust and efficient framework for developing dynamic web applications.
 
 -Redux: A predictable state container for JavaScript apps. Redux simplifies the management of application state, making it easier to develop complex and interactive web applications.
@@ -30,18 +32,25 @@ This is a modern music website that allows users to explore a vast collection of
 
 -APIs: The website integrates two APIs. The first API is used to retrieve songs and artist information, while the second API provides geolocation data for enhanced personalization.
 
-##Getting Started
+## Getting Started
+
 To run this website locally, follow these steps:
 
-1.Clone the repository: _**git clone https://github.com/your-repository-url.git**_
+1.Clone the repository: _**git clone https://github.com/AndriiPoronko/music.git**_
+
 2.Install the required dependencies: _**npm install**_
+
 3.Obtain API keys for the song and geolocation APIs and replace the placeholders in the code with your actual keys.
 You can rename the file _** .env.exapmle to .env **_ to keep the working keys.
+
 4.Start the development server: _**npm run dev**_
+
 5.Open your web browser and navigate to _**http://localhost:3000**_ to access the website.
+
 Please note that you need to have Node.js and npm (Node Package Manager) installed on your machine to run the website locally.
 
-##Contributions
+## Contributions
+
 Contributions to the website are welcome. If you encounter any issues or would like to propose new features, feel free to submit a pull request or open an issue on the GitHub repository.
 
 Enjoy exploring and listening to music on our website!
