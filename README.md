@@ -1,8 +1,6 @@
 # Website with Music / Вебсайт з музикою
 
-_Read this document in [English](README.md) or [Ukrainian](README_UA.md)._
-
-## Music Nest Website
+_Read this document in [Ukrainian](README_UA.md)._
 
 This is a modern music website that allows users to explore a vast collection of music, featuring a fully functional music player, search functionality, song lyrics, and various other features. The website is built using React, Redux, and Tailwind CSS, and it integrates two APIs: one for retrieving songs and artists, and another for obtaining user geolocation data.
 
